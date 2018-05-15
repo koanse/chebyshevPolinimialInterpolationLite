@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XMLSchema4" targetNamespace="http://tempuri.org/XMLSchema4.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema4.xsd" xmlns:mstns="http://tempuri.org/XMLSchema4.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Остаточные_x0020_дисперсии">
+		<xs:complexType>
+			<xs:sequence />
+			<xs:attribute name="Степень_x0020_интерполяцион._x0020_мн." type="xs:int" />
+			<xs:attribute name="Остаточная_x0020_дисперсия" type="xs:float" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

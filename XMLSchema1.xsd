@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XMLSchema1" targetNamespace="http://tempuri.org/XMLSchema1.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema1.xsd" xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="КоординатыТочек">
+		<xs:complexType>
+			<xs:sequence></xs:sequence>
+			<xs:attribute name="X" type="xs:float" />
+			<xs:attribute name="Y" type="xs:float" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

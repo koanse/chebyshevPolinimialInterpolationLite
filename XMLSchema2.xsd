@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XMLSchema2" targetNamespace="http://tempuri.org/XMLSchema2.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema2.xsd" xmlns:mstns="http://tempuri.org/XMLSchema2.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Коэффициенты_x0020_полинома_x0020_Чебышева">
+		<xs:complexType>
+			<xs:sequence />
+			<xs:attribute name="Степень_x0020_переменной" type="xs:int" />
+			<xs:attribute name="Коэффициент" type="xs:float" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

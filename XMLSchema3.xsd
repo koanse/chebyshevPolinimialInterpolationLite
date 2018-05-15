@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XMLSchema3" targetNamespace="http://tempuri.org/XMLSchema3.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/XMLSchema3.xsd" xmlns:mstns="http://tempuri.org/XMLSchema3.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Коэффициенты_x0020_интерполяционного_x0020_многочлена">
+		<xs:complexType>
+			<xs:sequence></xs:sequence>
+			<xs:attribute name="Степень_x0020_переменной" type="xs:integer" />
+			<xs:attribute name="Коэффициент" type="xs:float" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
